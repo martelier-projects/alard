@@ -33,7 +33,7 @@ export default {
       default: ['default'],
     },
     {
-      label: 'Section',
+      label: 'Flexible content',
       name: 'sections',
       widget: 'list',
       types: flexibles,

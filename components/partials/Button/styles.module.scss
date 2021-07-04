@@ -1,0 +1,16 @@
+@import '../../../styles/base.scss';
+
+.button {
+  @include bare-button;
+  display: inline-block;
+  padding: gap(small) gap(medium);
+  background-color: $primary-color;
+  color: $white;
+  line-height: 1;
+  transition: background-color $pace-quick $ease-in-out;
+}
+
+.button:focus,
+.button:hover {
+  background-color: $primary-color-darker;
+}

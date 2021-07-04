@@ -1,6 +1,8 @@
 import type FlexibleContentInterface from './interface'
 
 import LargeText from '../../flexibles/LargeText'
+import MailChimpSignUp from '../../flexibles/MailChimpSignUp'
+import PageHeader from '../../flexibles/PageHeader'
 import Text from '../../flexibles/Text'
 import TextMedia from '../../flexibles/TextMedia'
 
@@ -18,6 +20,14 @@ export default function FlexibleContent({
         }
         if (section.component === 'text-media') {
           return <TextMedia key={`flexible-content-${index}`} {...section} />
+        }
+        if (section.component === 'page-header') {
+          return <PageHeader key={`flexible-content-${index}`} {...section} />
+        }
+        if (section.component === 'mail-chimp-sign-up') {
+          return (
+            <MailChimpSignUp key={`flexible-content-${index}`} {...section} />
+          )
         }
 
         return null

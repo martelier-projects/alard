@@ -7,13 +7,20 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* <link
+          <link
             rel="preload"
-            href="/fonts/any-font.woff2"
+            href="/fonts/poppins-v15-latin-800.woff2"
             as="font"
             type="font/woff2"
             crossOrigin="anonymous"
-          /> */}
+          />
+          <link
+            rel="preload"
+            href="/fonts/merriweather-v22-latin-regular.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="anonymous"
+          />
         </Head>
 
         <body>

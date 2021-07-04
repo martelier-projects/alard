@@ -2,7 +2,7 @@
 
 .text-media {
   @include block;
-  @include row;
+  @include row(large);
   display: grid;
   grid-template-areas:
     'image .'
