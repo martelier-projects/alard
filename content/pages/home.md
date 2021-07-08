@@ -25,24 +25,14 @@ sections:
   - type: text-media
     order: image-text
     component: text-media
-    title: Test
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but
-      also the leap into electronic typesetting, remaining essentially
-      unchanged. It was popularised in the 1960s with the release of Letraset
-      sheets containing Lorem Ipsum passages, and more recently with desktop
-      publishing software like Aldus PageMaker including versions of Lorem
-      Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry. Lorem Ipsum has been the industry's standard dummy text ever
-      since the 1500s, when an unknown printer took a galley of type and
-      scrambled it to make a type specimen book. It has survived not only five
-      centuries, but also the leap into electronic typesetting, remaining
-      essentially unchanged. It was popularised in the 1960s with the release of
-      Letraset sheets containing Lorem Ipsum passages, and more recently with
-      desktop publishing software like Aldus PageMaker including versions of
-      Lorem Ipsum.
+    title: Waar gaat dit boek over?
+    text: Iedere dag ervaar je dat de motivatie van studenten wisselt. Maar ondanks
+      deze variatie, kun jij de ideale omstandigheden creëren waardoor studenten
+      in beweging komen. Dit doe je door aandacht te schenken aan de drie
+      basisbehoeften, oftewel het motivatie-ABC. Wanneer je aandacht schenkt aan
+      het ABC van studenten, stimuleer je hen tot leren. In dit boek lees je hoe
+      je dit in jouw les- en begeleidingssituaties, fysiek en offline, kunt
+      aanpakken. De adviezen zijn meestal verpakt in handige to-dolijstjes.
     image: /images/boek.webp
     imageAlt: Boek
   - type: mail-chimp-sign-up
