@@ -33,7 +33,7 @@ sections:
       het ABC van studenten, stimuleer je hen tot leren. In dit boek lees je hoe
       je dit in jouw les- en begeleidingssituaties, fysiek en offline, kunt
       aanpakken. De adviezen zijn meestal verpakt in handige to-dolijstjes.
-    image: /images/boek.webp
+    image: /images/abc.png
     imageAlt: Boek
   - type: text-media
     order:
