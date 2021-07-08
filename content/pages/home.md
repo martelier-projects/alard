@@ -64,9 +64,6 @@ sections:
       de waaier gebruiken.
     image: /images/boek.webp
     imageAlt: "-"
-  - type: mail-chimp-sign-up
-    component: mail-chimp-sign-up
-    title: "-"
   - type: text-media
     order:
       - image-text
@@ -82,6 +79,9 @@ sections:
       actie!"
     image: /images/unnamed.png
     imageAlt: "-"
+  - type: mail-chimp-sign-up
+    component: mail-chimp-sign-up
+    title: "-"
 seo:
   pageTitle: sfds
   pageDescription: sdfsf
