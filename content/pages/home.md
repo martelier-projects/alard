@@ -52,9 +52,6 @@ sections:
       * Naast het boek is er een waaier waarin alle checklisten gebundeld zijn. In het boek vind je een toelichting op de checklisten.
     image: /images/boek.webp
     imageAlt: Book
-  - type: mail-chimp-sign-up
-    component: mail-chimp-sign-up
-    title: "-"
   - type: text-media
     order:
       - image-text
@@ -66,6 +63,24 @@ sections:
       daarbij. Afhankelijk van jouw behoefte kun je onderdelen van het boek of
       de waaier gebruiken.
     image: /images/boek.webp
+    imageAlt: "-"
+  - type: mail-chimp-sign-up
+    component: mail-chimp-sign-up
+    title: "-"
+  - type: text-media
+    order:
+      - image-text
+    component: text-media
+    title: Over de auteur
+    text: "Ik ben Alard Joosten (55) en ik heb meer dan vijftien jaar
+      onderwijservaring op universiteiten en diverse hogescholen. Vanuit deze
+      ervaring heb ik in 2016 De Docentenacademie opgericht. Met een team van
+      zes medewerkers trainen en begeleiden wij docenten en docententeams op het
+      gebied van effectief onderwijs. Met ons werk willen wij bijdragen aan een
+      wereld waarin we elkaar verder helpen door optimaal van en met elkaar te
+      leren. En dat vanuit ons motto: leren doe je door plezier, verbinding en
+      actie!"
+    image: /images/unnamed.png
     imageAlt: "-"
 seo:
   pageTitle: sfds
