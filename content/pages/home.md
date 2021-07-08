@@ -62,7 +62,7 @@ sections:
       groeien en dat je verder wilt komen in je vak. Dit praktijkboek helpt je
       daarbij. Afhankelijk van jouw behoefte kun je onderdelen van het boek of
       de waaier gebruiken.
-    image: /images/boek.webp
+    image: /images/knipoog.png
     imageAlt: "-"
   - type: text-media
     order:
