@@ -35,9 +35,6 @@ sections:
       aanpakken. De adviezen zijn meestal verpakt in handige to-dolijstjes.
     image: /images/boek.webp
     imageAlt: Boek
-  - type: mail-chimp-sign-up
-    component: mail-chimp-sign-up
-    title: "-"
   - type: text-media
     order:
       - image-text
@@ -55,6 +52,21 @@ sections:
       * Naast het boek is er een waaier waarin alle checklisten gebundeld zijn. In het boek vind je een toelichting op de checklisten.
     image: /images/boek.webp
     imageAlt: Book
+  - type: mail-chimp-sign-up
+    component: mail-chimp-sign-up
+    title: "-"
+  - type: text-media
+    order:
+      - image-text
+    component: text-media
+    title: Voor wie is dit boek?
+    text: Ben je een beginnende docent of geef je al jaren les binnen het hoger
+      onderwijs? Ik ga ervan uit dat jij je wilt ontwikkelen, dat je wilt
+      groeien en dat je verder wilt komen in je vak. Dit praktijkboek helpt je
+      daarbij. Afhankelijk van jouw behoefte kun je onderdelen van het boek of
+      de waaier gebruiken.
+    image: /images/boek.webp
+    imageAlt: "-"
 seo:
   pageTitle: sfds
   pageDescription: sdfsf
