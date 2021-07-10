@@ -77,7 +77,7 @@ sections:
       wereld waarin we elkaar verder helpen door optimaal van en met elkaar te
       leren. En dat vanuit ons motto: leren doe je door plezier, verbinding en
       actie!"
-    image: /images/unnamed.png
+    image: /images/whatsapp-image-2021-07-05-at-21.48.29.jpeg
     imageAlt: "-"
   - type: mail-chimp-sign-up
     component: mail-chimp-sign-up
