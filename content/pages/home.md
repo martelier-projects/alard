@@ -50,7 +50,7 @@ sections:
       * In hoofdstuk 5 tot en met 8 staan de vier meest voorkomende onderwijsvormen centraal: het hoorcollege, het werkcollege, groepsbegeleiding en individuele begeleiding. In ieder hoofdstuk bespreek ik hoe je in deze onderwijsbijeenkomsten tegemoet kan komen aan het ABC. Ieder hoofdstuk bevat meerdere checklisten. Daarnaast geef ik je tips hoe je om kunt gaan met lastige situaties tijdens deze onderwijsvormen.
 
       * Naast het boek is er een waaier waarin alle checklisten gebundeld zijn. In het boek vind je een toelichting op de checklisten.
-    image: /images/boek.webp
+    image: /images/bubbels.png
     imageAlt: Book
   - type: text-media
     order:
@@ -62,7 +62,7 @@ sections:
       groeien en dat je verder wilt komen in je vak. Dit praktijkboek helpt je
       daarbij. Afhankelijk van jouw behoefte kun je onderdelen van het boek of
       de waaier gebruiken.
-    image: /images/knipoog.png
+    image: /images/doc_png8.png
     imageAlt: "-"
   - type: text-media
     order:
@@ -77,7 +77,7 @@ sections:
       wereld waarin we elkaar verder helpen door optimaal van en met elkaar te
       leren. En dat vanuit ons motto: leren doe je door plezier, verbinding en
       actie!"
-    image: /images/unnamed.png
+    image: /images/whatsapp-image-2021-07-05-at-21.48.29.jpeg
     imageAlt: "-"
   - type: mail-chimp-sign-up
     component: mail-chimp-sign-up
