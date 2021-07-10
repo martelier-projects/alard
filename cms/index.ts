@@ -6,6 +6,8 @@ export default {
     name: 'git-gateway',
     branch: 'main',
   },
+  site_url: 'https://alard.netlify.app',
+  display_url: 'https://alard.netlify.app',
   local_backend: true,
   load_config_file: false,
   media_folder: '/public/images',

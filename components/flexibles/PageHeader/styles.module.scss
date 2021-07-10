@@ -9,10 +9,47 @@
 
 .inner {
   @include block(large);
-  @include row(large);
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: rem(160);
+  @include row-top(small);
+  @include row-bottom(large);
+
+  @include bp-min(small) {
+    @include row-top(medium);
+  }
+
+  @include bp-min(medium) {
+    @include row-top(large);
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: rem(160);
+  }
+}
+
+/**
+ * Text container
+ */
+.text-container {
+  @include constrain(small);
+}
+.title {
+  @include heading-medium;
+  margin: 0 0 gap(medium);
+}
+
+.text {
+  @include text-large;
+}
+
+/**
+ * Image
+ */
+.image-container {
+  max-width: rem(400);
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  width: 100%;
 }
 
 .topics {

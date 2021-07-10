@@ -20,8 +20,8 @@ export default function PageHeader({
     <header className={styles['page-header']}>
       <div className={styles['background-color']}>
         <div className={styles['inner']}>
-          <div>
-            <h1>{title}</h1>
+          <div className={styles['text-container']}>
+            <h1 className={styles['title']}>{title}</h1>
             <div className={styles['text']}>
               <ReactMarkdown>{text}</ReactMarkdown>
             </div>

@@ -1,15 +1,50 @@
 @import '../../../styles/base.scss';
 
+.topics {
+  @include block();
+}
+
 .list {
   @include bare-list;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 20rem));
-  grid-gap: gap(large);
-  justify-content: center;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: gap(medium);
+
+  @include bp-min(small) {
+    flex-direction: row;
+    justify-content: space-between;
+
+    @supports (display: grid) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
 }
+
 .item {
-  padding: gap(small);
+  display: flex;
+  flex-grow: 0;
+  margin: gap(medium);
+
+  @supports (display: grid) {
+    margin: 0;
+  }
+}
+
+.topic {
+  display: flex;
+  flex-direction: column;
+  padding: gap(medium) gap(medium) gap(medium-large);
   background-color: $white;
-  box-shadow: 0 1px 4px rgba(32, 32, 31, 0.2);
+  box-shadow: $shadow-tiny;
+}
+.topic-title {
+  @include text-large;
+  @include sans-serif-font;
+  margin: 0;
+  font-weight: $bold;
+}
+
+.topic-text {
+  margin: 0;
 }

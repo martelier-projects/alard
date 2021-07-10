@@ -2,8 +2,9 @@
 
 .button {
   @include bare-button;
+  @include sans-serif-font;
   display: inline-block;
-  padding: gap(small) gap(medium);
+  padding: gap(small) gap(medium-large);
   background-color: $primary-color;
   color: $white;
   line-height: 1;
