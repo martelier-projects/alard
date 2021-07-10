@@ -50,7 +50,7 @@ sections:
       * In hoofdstuk 5 tot en met 8 staan de vier meest voorkomende onderwijsvormen centraal: het hoorcollege, het werkcollege, groepsbegeleiding en individuele begeleiding. In ieder hoofdstuk bespreek ik hoe je in deze onderwijsbijeenkomsten tegemoet kan komen aan het ABC. Ieder hoofdstuk bevat meerdere checklisten. Daarnaast geef ik je tips hoe je om kunt gaan met lastige situaties tijdens deze onderwijsvormen.
 
       * Naast het boek is er een waaier waarin alle checklisten gebundeld zijn. In het boek vind je een toelichting op de checklisten.
-    image: /images/boek.webp
+    image: /images/bubbels.png
     imageAlt: Book
   - type: text-media
     order:
