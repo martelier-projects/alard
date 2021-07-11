@@ -10,7 +10,7 @@
 .inner {
   @include block(large);
   @include row-top(small);
-  @include row-bottom(large);
+  padding-bottom: 10rem;
 
   @include bp-min(small) {
     @include row-top(medium);
@@ -21,6 +21,7 @@
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-gap: rem(160);
+    padding-bottom: 5rem;
   }
 }
 
@@ -29,23 +30,30 @@
  */
 .text-container {
   @include constrain(small);
+  padding-bottom: 6rem;
 }
 .title {
   @include heading-medium;
-  margin: 0 0 gap(medium);
+  margin: 0 0 gap(huge);
 }
 
 .text {
-  @include text-large;
+  @include text-medium-large;
+  margin-bottom: 4rem;
 }
 
 /**
  * Image
  */
 .image-container {
-  max-width: rem(400);
-  margin: 0;
+  max-width: rem(250);
+  margin: 0 auto;
   padding: 0;
+
+  @include bp-min(small) {
+    max-width: rem(300);
+    margin: 0;
+  }
 }
 
 .image {

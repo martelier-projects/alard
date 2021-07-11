@@ -41,7 +41,7 @@
 .topic-title {
   @include text-large;
   @include sans-serif-font;
-  margin: 0;
+  margin: 0 0 gap(tiny);
   font-weight: $bold;
 }
 

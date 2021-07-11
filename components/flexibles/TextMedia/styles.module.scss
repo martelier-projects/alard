@@ -27,14 +27,27 @@
 }
 
 .title {
+  @include heading-small;
   grid-area: title;
   align-self: end;
 }
 .text {
   @include constrain(small);
+  @include text-medium-large;
   grid-area: text;
   align-self: start;
 }
+// Move element styling to separate component.
+// .text ul,
+// .text ol {
+// }
+.text li {
+  margin: gap(medium) 0;
+}
+.text li::marker {
+  color: $primary-color;
+}
+
 .image-container {
   grid-area: image;
 }

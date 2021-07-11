@@ -1,12 +1,14 @@
 @import '../../../styles/base.scss';
 
 .button {
+  @include text-large;
   @include bare-button;
   @include sans-serif-font;
   display: inline-block;
-  padding: gap(small) gap(medium-large);
+  padding: gap(small-medium) gap(medium-large);
   background-color: $primary-color;
   color: $white;
+  font-weight: $normal;
   line-height: 1;
   transition: background-color $pace-quick $ease-in-out;
 }

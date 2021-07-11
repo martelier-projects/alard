@@ -16,6 +16,13 @@ class MyDocument extends Document {
           />
           <link
             rel="preload"
+            href="/fonts/poppins-v15-latin-regular.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="anonymous"
+          />
+          <link
+            rel="preload"
             href="/fonts/merriweather-v22-latin-regular.woff2"
             as="font"
             type="font/woff2"
