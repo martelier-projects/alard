@@ -18,6 +18,7 @@ export default {
       widget: 'boolean',
       default: false,
       required: false,
+      hint: "When selecting this option, the image is cropped. This means the full height of the image isn't shown.",
     },
     {
       label: 'Title',
