@@ -23,7 +23,7 @@ sections:
     image: /images/book.png
     component: page-header
   - type: text-media
-    order: image-text
+    order: text-image
     component: text-media
     title: Waar gaat dit boek over?
     text: Iedere dag ervaar je dat de motivatie van studenten wisselt. Maar ondanks
@@ -53,8 +53,7 @@ sections:
     image: /images/bubbels.png
     imageAlt: Book
   - type: text-media
-    order:
-      - image-text
+    order: text-image
     component: text-media
     title: Voor wie is dit boek?
     text: Ben je een beginnende docent of geef je al jaren les binnen het hoger
@@ -65,8 +64,7 @@ sections:
     image: /images/doc_png8.png
     imageAlt: "-"
   - type: text-media
-    order:
-      - image-text
+    order: image-text
     component: text-media
     title: Over de auteur
     text: "Ik ben Alard Joosten (55) en ik heb meer dan vijftien jaar
@@ -79,6 +77,7 @@ sections:
       actie!"
     image: /images/whatsapp-image-2021-07-05-at-21.48.29.jpeg
     imageAlt: "-"
+    imageToTheEdge: true
   - type: mail-chimp-sign-up
     component: mail-chimp-sign-up
     title: "-"

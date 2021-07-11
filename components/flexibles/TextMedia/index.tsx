@@ -9,18 +9,23 @@ export default function ColumnText({
   text,
   image,
   imageAlt,
+  imageToTheEdge = false,
 }: ColumnTextInterface) {
   return (
-    <section className={styles['text-media']} data-order={order}>
-      {title && <h2 className={styles['title']}>{title}</h2>}
+    <div
+      data-order={order}
+      data-image-to-the-edge={imageToTheEdge}
+      className={styles['wrapper']}
+    >
+      <section className={styles['text-media']}>
+        {title && <h2 className={styles['title']}>{title}</h2>}
 
-      <div className={styles['text']}>
-        <ReactMarkdown>{text}</ReactMarkdown>
-      </div>
+        <div className={styles['text']}>
+          <ReactMarkdown>{text}</ReactMarkdown>
+        </div>
 
-      <figure className={styles['image-container']}>
         <img src={image} alt={imageAlt} className={styles['image']} />
-      </figure>
-    </section>
+      </section>
+    </div>
   )
 }

@@ -4,5 +4,6 @@ export default interface TextMedia {
   image: string
   imageAlt: string
   component: 'text-media'
+  imageToTheEdge?: boolean
   title?: string
 }

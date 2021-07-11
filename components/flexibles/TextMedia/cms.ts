@@ -13,6 +13,13 @@ export default {
       required: true,
     },
     {
+      label: 'Image to the edge',
+      name: 'imageToTheEdge',
+      widget: 'boolean',
+      default: false,
+      required: false,
+    },
+    {
       label: 'Title',
       name: 'title',
       widget: 'string',
