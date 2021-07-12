@@ -20,7 +20,7 @@ sections:
     imageAlt: "Het boek: Het praktijkboek voor docenten in het hoger onderwijs"
     title: Het praktijkboek voor docenten in het hoger onderwijs
     type: pageHeader
-    image: /images/unnamed.png
+    image: /images/boek_cover.png
     component: page-header
   - type: text-media
     order: text-image
