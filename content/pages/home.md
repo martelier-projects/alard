@@ -78,9 +78,12 @@ sections:
     image: /images/whatsapp-image-2021-07-05-at-21.48.29.jpeg
     imageAlt: "-"
     imageToTheEdge: true
-  - type: mail-chimp-sign-up
+  - type: mailChimpSignUp
     component: mail-chimp-sign-up
-    title: "-"
+    title: Krijg een hoofdstuk uit het boek
+    text: Meer tekst over het hoofdstuk uit het boek.
+    image: /images/doc_png8.png
+    imageAlt: Nog toe te voegen
 seo:
   pageTitle: sfds
   pageDescription: sdfsf

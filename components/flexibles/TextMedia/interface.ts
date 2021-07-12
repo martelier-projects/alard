@@ -3,7 +3,7 @@ export default interface TextMedia {
   text: string
   image: string
   imageAlt: string
-  component: 'text-media'
   imageToTheEdge?: boolean
   title?: string
+  children?: React.ReactNode
 }

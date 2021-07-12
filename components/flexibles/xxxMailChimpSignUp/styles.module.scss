@@ -1,0 +1,6 @@
+@import '../../../styles/base.scss';
+
+.container {
+  @include block(large);
+  @include row;
+}

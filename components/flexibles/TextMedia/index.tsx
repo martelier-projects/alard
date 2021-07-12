@@ -1,16 +1,17 @@
 import ReactMarkdown from 'react-markdown'
-import type ColumnTextInterface from './interface'
+import type TextMediaInterface from './interface'
 
 import styles from './styles.module.scss'
 
-export default function ColumnText({
+export default function TextMedia({
   order,
   title,
   text,
   image,
   imageAlt,
+  children,
   imageToTheEdge = false,
-}: ColumnTextInterface) {
+}: TextMediaInterface) {
   return (
     <div
       data-order={order}
@@ -22,6 +23,8 @@ export default function ColumnText({
 
         <div className={styles['text']}>
           <ReactMarkdown>{text}</ReactMarkdown>
+
+          {children && <div>{children}</div>}
         </div>
 
         <img src={image} alt={imageAlt} className={styles['image']} />

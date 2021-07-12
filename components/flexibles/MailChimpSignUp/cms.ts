@@ -1,13 +1,35 @@
 export default {
-  label: 'Mailchimp sign-up',
-  name: 'mail-chimp-sign-up',
+  label: 'MailChimp Sign-up',
+  name: 'mailChimpSignUp',
   widget: 'object',
-  summary: 'Mailchimp sign-up',
+  summary: 'MailChimp Sign-up | {{fields.title}}',
   fields: [
     {
       label: 'Title',
       name: 'title',
-      default: 'Hier komt de Mailchimp sign-up',
+      widget: 'string',
+      required: false,
+    },
+    {
+      label: 'Text',
+      name: 'text',
+      widget: 'markdown',
+      required: true,
+      buttons: ['heading-three', 'bold', 'italic', 'link'],
+      editor_components: [],
+      modes: ['rich_text'],
+    },
+    {
+      label: 'Image',
+      name: 'image',
+      widget: 'image',
+      required: true,
+    },
+    {
+      label: 'Image description',
+      name: 'imageAlt',
+      widget: 'string',
+      required: true,
     },
     {
       label: 'Component',

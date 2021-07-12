@@ -1,13 +1,26 @@
-import type MailChimpSignUpInterface from './interface'
+import type mailChimpSignUpInterface from './interface'
+
+import TextMedia from '../TextMedia'
+import EmailSignUp from '../../modules/EmailSignUp'
 
 import styles from './styles.module.scss'
 
-export default function MailChimpSignUp({
-  children,
-}: MailChimpSignUpInterface) {
+export default function mailChimpSignUp({
+  title,
+  text,
+  image,
+  imageAlt,
+}: mailChimpSignUpInterface) {
   return (
-    <div className={styles['container']}>
-      <p>Hier komt de mail chimp sign up!</p>
-    </div>
+    <TextMedia
+      order="text-image"
+      imageToTheEdge={true}
+      title={title}
+      text={text}
+      image={image}
+      imageAlt={imageAlt}
+    >
+      <EmailSignUp label="label" submit="submit" />
+    </TextMedia>
   )
 }

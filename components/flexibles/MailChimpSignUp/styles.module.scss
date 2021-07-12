@@ -1,6 +1,82 @@
 @import '../../../styles/base.scss';
 
-.container {
-  @include block(large);
-  @include row;
+.text-media {
+  @include block;
+  @include row(large);
+  display: grid;
+  grid-template-areas:
+    'image .'
+    'title title'
+    'text text';
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0 gap(huge);
+  align-items: center;
+
+  @include bp-min(medium) {
+    grid-template-areas:
+      'image title'
+      'image text';
+  }
+}
+.wrapper[data-order='text-image'] .text-media {
+  @include bp-min(medium) {
+    grid-template-areas:
+      'title image'
+      'text image';
+  }
+}
+
+.title {
+  @include heading-small;
+  grid-area: title;
+  align-self: end;
+}
+.text {
+  @include constrain(small);
+  @include text-medium-large;
+  grid-area: text;
+  align-self: start;
+}
+// Move element styling to separate component.
+// .text ul,
+// .text ol {
+// }
+.text li {
+  margin: gap(medium) 0;
+}
+.text li::marker {
+  color: $primary-color;
+}
+
+.image {
+  grid-area: image;
+}
+
+.wrapper[data-image-to-the-edge='true'] {
+  position: relative;
+}
+
+.wrapper[data-image-to-the-edge='true'] .image {
+  @include bp-min(medium) {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: calc(50vw - #{gap(huge) / 2});
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.wrapper[data-image-to-the-edge='true'][data-order='text-image'] {
+  @include bp-min(medium) {
+    grid-template-areas:
+      'title image'
+      'text image';
+  }
+}
+
+.wrapper[data-image-to-the-edge='true'][data-order='text-image'] .image {
+  right: 0;
+  left: auto;
 }
