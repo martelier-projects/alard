@@ -1,24 +1,33 @@
 @import '../../../styles/base.scss';
 
 .email-sign-up label {
+  @include sans-serif-font;
   display: block;
+  font-weight: $normal;
+  // padding-left: 0.8rem;
 }
 .email-sign-up input {
   font-size: inherit;
 }
 .email-sign-up input[type='email'] {
-  margin: 0.5rem 0;
+  margin: 0 gap(medium) 0 0;
   padding: 0.5rem 0.8rem;
   border: none;
+  border-bottom: 1px solid $primary-color;
 
   @include bp-min(small) {
     min-width: 20rem;
   }
+  @include bp-min(medium) {
+    margin: 0 gap(large) 0 0;
+  }
 }
 .email-sign-up input[type='submit'] {
+  @include sans-serif-font;
   padding: 0.5rem 0.8rem;
   background-color: $primary-color;
   color: $white;
+  font-weight: $normal;
   border: none;
 
   transition: background-color 150ms ease-in-out;
@@ -28,4 +37,10 @@
     background-color: $primary-color-darker;
     cursor: pointer;
   }
+}
+
+.email-sign-up [data-element='form-wrapper'] {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }

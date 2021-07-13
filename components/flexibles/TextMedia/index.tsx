@@ -24,7 +24,7 @@ export default function TextMedia({
         <div className={styles['text']}>
           <ReactMarkdown>{text}</ReactMarkdown>
 
-          {children && <div>{children}</div>}
+          {children && <div className={styles['children']}>{children}</div>}
         </div>
 
         <img src={image} alt={imageAlt} className={styles['image']} />

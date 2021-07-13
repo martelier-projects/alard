@@ -32,6 +32,18 @@ export default {
       required: true,
     },
     {
+      label: 'Email sign-up input label',
+      name: 'emailSignUpInputLabel',
+      widget: 'string',
+      required: true,
+    },
+    {
+      label: 'Email sign-up submit label',
+      name: 'emailSignUpSignUpLabel',
+      widget: 'string',
+      required: true,
+    },
+    {
       label: 'Component',
       name: 'component',
       widget: 'hidden',

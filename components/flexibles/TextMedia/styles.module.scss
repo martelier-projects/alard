@@ -5,7 +5,7 @@
   @include row(large);
   display: grid;
   grid-template-areas:
-    'image .'
+    'image image'
     'title title'
     'text text';
   grid-template-columns: repeat(2, 1fr);
@@ -50,6 +50,13 @@
 
 .image {
   grid-area: image;
+  width: 70vw;
+  max-width: 30rem;
+
+  @include bp-min(medium) {
+    width: 100%;
+    max-width: none;
+  }
 }
 
 .wrapper[data-image-to-the-edge='true'] {
@@ -79,4 +86,8 @@
 .wrapper[data-image-to-the-edge='true'][data-order='text-image'] .image {
   right: 0;
   left: auto;
+}
+
+.children {
+  padding: 1px;
 }

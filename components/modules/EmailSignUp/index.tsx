@@ -17,7 +17,7 @@ export default function EmailSignUp({ label, submit }: EmailSignUpInterface) {
         target="_blank"
         noValidate={true}
       >
-        <div id="mc_embed_signup_scroll">
+        <div id="mc_embed_signup_scroll" data-element="form-wrapper">
           <div className="mc-field-group">
             <label htmlFor="mce-EMAIL">{label}</label>
             <input

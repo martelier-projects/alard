@@ -61,7 +61,7 @@ sections:
       groeien en dat je verder wilt komen in je vak. Dit praktijkboek helpt je
       daarbij. Afhankelijk van jouw behoefte kun je onderdelen van het boek of
       de waaier gebruiken.
-    image: /images/doc_png8.png
+    image: /images/samen-lezen.png
     imageAlt: "-"
   - type: text-media
     order: image-text
@@ -82,8 +82,10 @@ sections:
     component: mail-chimp-sign-up
     title: Krijg een hoofdstuk uit het boek
     text: Meer tekst over het hoofdstuk uit het boek.
-    image: /images/doc_png8.png
+    image: /images/samen-lezen.png
     imageAlt: Nog toe te voegen
+    emailSignUpInputLabel: Vul hier uw email adres in
+    emailSignUpSignUpLabel: Aanvragen
 seo:
   pageTitle: sfds
   pageDescription: sdfsf

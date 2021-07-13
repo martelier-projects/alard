@@ -8,7 +8,6 @@ export default function DefaultTemplate({ title, sections, seo }: Page) {
     <>
       <Seo {...seo} />
       <main>{sections && <FlexibleContent sections={sections} />}</main>
-      <footer>Footer</footer>
     </>
   )
 }
