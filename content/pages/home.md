@@ -11,7 +11,7 @@ sections:
         text: Concrete handvatten over hoe jij effectief onderwijs realiseert
       - title: Tips & Checklijsten
         text: "Tips wat jij kunt doen in lastige onderwijssituaties "
-    buttonLink: /
+    buttonLink: https://studentenverleidentotleren.vrijeboeken.com/cart?noproductlink=1&reference=9789090346625
     text: Als docent heb je dagelijks te maken met uitdagende situaties. Studenten
       die onvoorbereid naar je werkcollege komen. Studenten die hun camera
       uitzetten bij een online les. Studenten die meer op hun telefoon zitten
@@ -63,6 +63,10 @@ sections:
       de waaier gebruiken.
     image: /images/samen-lezen.png
     imageAlt: "-"
+    imageToTheEdge: false
+  - type: dotted-line
+    color: "#f18634"
+    component: dotted-line
   - type: text-media
     order: image-text
     component: text-media

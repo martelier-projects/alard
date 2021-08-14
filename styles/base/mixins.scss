@@ -182,3 +182,24 @@
     outline: 1px solid lime;
   }
 }
+
+/**
+ * Pattern background
+ */
+@mixin pattern-background {
+  position: relative;
+
+  &::after {
+    content: '';
+    opacity: 0.2;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $gray;
+    background-image: url('/images/background.jpg');
+    filter: grayscale(50%);
+  }
+}

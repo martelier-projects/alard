@@ -1,0 +1,8 @@
+@import '../../../styles/base.scss';
+
+.dotted-line {
+  @include row-bottom(huge);
+}
+.dotted-line__inner {
+  border-bottom: 2rem dotted #007f8e;
+}

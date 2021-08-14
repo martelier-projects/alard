@@ -1,0 +1,28 @@
+@import '../../../styles/base.scss';
+
+.container {
+  @include row(huge);
+  @include pattern-background;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vw;
+}
+
+.inner {
+  @include block(large);
+}
+
+.title {
+  @include heading-small;
+  margin-bottom: gap(small);
+  text-align: center;
+}
+.text {
+  text-align: center;
+}
+
+.email-sign-up {
+  margin-top: gap(huge);
+}

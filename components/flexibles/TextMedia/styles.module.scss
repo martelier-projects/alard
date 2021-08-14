@@ -3,6 +3,7 @@
 .text-media {
   @include block;
   @include row(large);
+  position: relative;
   display: grid;
   grid-template-areas:
     'image image'
@@ -18,6 +19,33 @@
       'image text';
   }
 }
+
+.wrapper[data-order='image-text'] .text-media::after {
+  content: '';
+  opacity: 0.1;
+  z-index: -1;
+  position: absolute;
+  top: -0.6rem;
+  left: 3%;
+  width: 73%;
+  height: calc(100% + 2.3rem);
+  background-color: $gray;
+  background-image: url('/images/background.jpg');
+  filter: grayscale(100%);
+
+  @include bp-min(small) {
+    left: 15%;
+  }
+
+  @include bp-min(medium) {
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: 89%;
+    transform: translateY(-50%);
+  }
+}
+
 .wrapper[data-order='text-image'] .text-media {
   @include bp-min(medium) {
     grid-template-areas:
@@ -61,6 +89,13 @@
 
 .wrapper[data-image-to-the-edge='true'] {
   position: relative;
+}
+
+.wrapper[data-image-to-the-edge='true'] .text-media {
+  position: initial;
+}
+.wrapper[data-image-to-the-edge='true'] .text-media::after {
+  content: none;
 }
 
 .wrapper[data-image-to-the-edge='true'] .image {

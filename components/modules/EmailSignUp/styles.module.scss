@@ -3,8 +3,8 @@
 .email-sign-up label {
   @include sans-serif-font;
   display: block;
+  margin-bottom: gap(tiny);
   font-weight: $normal;
-  // padding-left: 0.8rem;
 }
 .email-sign-up input {
   font-size: inherit;

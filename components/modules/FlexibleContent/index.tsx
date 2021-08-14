@@ -5,6 +5,7 @@ import MailChimpSignUp from '../../flexibles/MailChimpSignUp'
 import PageHeader from '../../flexibles/PageHeader'
 import Text from '../../flexibles/Text'
 import TextMedia from '../../flexibles/TextMedia'
+import DottedLine from '../../flexibles/DottedLine'
 
 export default function FlexibleContent({
   sections,
@@ -28,6 +29,9 @@ export default function FlexibleContent({
           return (
             <MailChimpSignUp key={`flexible-content-${index}`} {...section} />
           )
+        }
+        if (section.component === 'dotted-line') {
+          return <DottedLine key={`flexible-content-${index}`} {...section} />
         }
 
         return null

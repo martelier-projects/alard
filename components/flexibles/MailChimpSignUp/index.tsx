@@ -1,29 +1,31 @@
+import ReactMarkdown from 'react-markdown'
 import type mailChimpSignUpInterface from './interface'
 
-import TextMedia from '../TextMedia'
 import EmailSignUp from '../../modules/EmailSignUp'
+
+import styles from './styles.module.scss'
 
 export default function mailChimpSignUp({
   title,
   text,
-  image,
-  imageAlt,
   emailSignUpInputLabel,
   emailSignUpSignUpLabel,
 }: mailChimpSignUpInterface) {
   return (
-    <TextMedia
-      order="text-image"
-      imageToTheEdge={false}
-      title={title}
-      text={text}
-      image={image}
-      imageAlt={imageAlt}
-    >
-      <EmailSignUp
-        label={emailSignUpInputLabel}
-        submit={emailSignUpSignUpLabel}
-      />
-    </TextMedia>
+    <section className={styles['container']}>
+      <div className={styles['inner']}>
+        <h2 className={styles['title']}>{title}</h2>
+        <div className={styles['text']}>
+          <ReactMarkdown>{text}</ReactMarkdown>
+        </div>
+
+        <div className={styles['email-sign-up']}>
+          <EmailSignUp
+            label={emailSignUpInputLabel}
+            submit={emailSignUpSignUpLabel}
+          />
+        </div>
+      </div>
+    </section>
   )
 }
