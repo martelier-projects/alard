@@ -20,6 +20,7 @@
   }
 }
 
+// Background
 .wrapper[data-order='image-text'] .text-media::after {
   content: '';
   opacity: 0.1;
@@ -27,7 +28,7 @@
   position: absolute;
   top: -0.6rem;
   left: 3%;
-  width: 73%;
+  width: 69%;
   height: calc(100% + 2.3rem);
   background-color: $gray;
   background-image: url('/images/background.jpg');
