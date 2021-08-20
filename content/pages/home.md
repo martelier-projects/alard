@@ -76,15 +76,14 @@ sections:
   - type: text-media
     order: image-text
     component: text-media
-    title: Over de auteur
-    text: "Ik ben Alard Joosten (55) en ik heb meer dan vijftien jaar
-      onderwijservaring op universiteiten en diverse hogescholen. Vanuit deze
-      ervaring heb ik in 2016 De Docentenacademie opgericht. Met een team van
-      zes medewerkers trainen en begeleiden wij docenten en docententeams op het
-      gebied van effectief onderwijs. Met ons werk willen wij bijdragen aan een
-      wereld waarin we elkaar verder helpen door optimaal van en met elkaar te
-      leren. En dat vanuit ons motto: leren doe je door plezier, verbinding en
-      actie!"
+    title: Wie is de auteur?
+    text: "Ik ben Alard Joosten en heb meer dan vijftien jaar onderwijservaring op
+      universiteiten en diverse hogescholen. Vanuit deze ervaring heb ik in 2016
+      De Docentenacademie opgericht. Met een team van zes medewerkers trainen en
+      begeleiden wij docenten en docententeams op het gebied van effectief
+      onderwijs. Met ons werk willen wij bijdragen aan een wereld waarin we
+      elkaar verder helpen door optimaal van en met elkaar te leren. En dat
+      vanuit ons motto: leren doe je door plezier, verbinding en actie!"
     image: /images/whatsapp-image-2021-07-10-at-14.07.26.jpeg
     imageAlt: "-"
     imageToTheEdge: true
