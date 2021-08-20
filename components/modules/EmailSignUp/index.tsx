@@ -3,15 +3,10 @@ import type EmailSignUpInterface from './interface'
 import styles from './styles.module.scss'
 
 export default function EmailSignUp({ label, submit }: EmailSignUpInterface) {
-  const action = ''
-  // 'https://wiesendeliefde.us13.list-manage.com/subscribe/post?u=c9de28e8236a6b661ba2832ad&amp;id=8ec8abe12c'
-
-  // ALARD: 367dda85b422f33a20a4d134c141e1f2-us6
-
   return (
     <div id="mc_embed_signup" className={styles['email-sign-up']}>
       <form
-        action={action}
+        action="https://dedocentenacademie.us6.list-manage.com/subscribe/post?u=f8010ef29542e0858324666b2&amp;id=d6e6059a25"
         method="post"
         id="mc-embedded-subscribe-form"
         name="mc-embedded-subscribe-form"
