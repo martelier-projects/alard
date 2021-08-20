@@ -47,7 +47,7 @@ sections:
     order:
       - image-text
     component: text-media
-    title: Wat lees je?
+    title: "Hoe is het boek opgebouwd? "
     text: >-
       
 
