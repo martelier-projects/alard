@@ -9,7 +9,7 @@ sections:
         text: Wat jij kunt doen om te zorgen dat studenten zin in leren krijgen
       - title: Effectief onderwijs
         text: Concrete handvatten over hoe jij effectief onderwijs realiseert
-      - title: Tips & Checklijsten
+      - title: Tips & Checklisten
         text: "Tips wat jij kunt doen in lastige onderwijssituaties "
     buttonLink: https://studentenverleidentotleren.vrijeboeken.com/cart?noproductlink=1&reference=9789090346625
     text: Als docent heb je dagelijks te maken met uitdagende situaties. Studenten
