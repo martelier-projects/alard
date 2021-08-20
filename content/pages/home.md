@@ -64,11 +64,9 @@ sections:
     order: text-image
     component: text-media
     title: Voor wie is dit boek?
-    text: Ben je een beginnende docent of geef je al jaren les binnen het hoger
-      onderwijs? Ik ga ervan uit dat jij je wilt ontwikkelen, dat je wilt
-      groeien en dat je verder wilt komen in je vak. Dit praktijkboek helpt je
-      daarbij. Afhankelijk van jouw behoefte kun je onderdelen van het boek of
-      de waaier gebruiken.
+    text: Voor iedere beginnende of meer ervaren docent binnen het hoger onderwijs.
+      Dit praktijkboek helpt je als je verder wilt komen in je vak. Afhankelijk
+      van jouw voorkeur kun je onderdelen uit het boek of de waaier gebruiken.
     image: /images/samen-lezen.png
     imageAlt: "-"
     imageToTheEdge: false
