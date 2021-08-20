@@ -1,5 +1,5 @@
 ---
-title: Home --> Deze moet je gebruiken Vera!
+title: Studenten verleiden tot leren
 url: /
 template: default
 sections:
@@ -99,7 +99,7 @@ sections:
     emailSignUpInputLabel: Vul hier je email adres in
     emailSignUpSignUpLabel: Aanvragen
 seo:
-  pageTitle: sfds
+  pageTitle: Studenten verleiden tot leren
   pageDescription: sdfsf
-  ogImage: /images/boek.webp
+  ogImage: /images/voorkant.jpg
 ---
