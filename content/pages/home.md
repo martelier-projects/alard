@@ -33,6 +33,13 @@ sections:
       basisbehoeften, oftewel het motivatie-ABC. 
 
 
+      * A staat voor Autonomie (ik kan het zelf als student)
+
+      * B staat voor Binding (ik hoor erbij als student)
+
+      * C staat voor Competentie (ik kan wat als student)
+
+
       Wanneer je aandacht schenkt aan het ABC van studenten, stimuleer je hen tot leren. In dit boek lees je hoe je dit in jouw les- en begeleidingssituaties, fysiek en offline, kunt aanpakken. De adviezen zijn meestal verpakt in handige to-dolijstjes.
     image: /images/abc.png
     imageAlt: Boek
