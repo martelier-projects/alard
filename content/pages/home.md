@@ -89,7 +89,7 @@ sections:
     imageToTheEdge: true
   - type: mailChimpSignUp
     component: mail-chimp-sign-up
-    title: Wil je een indruk van de inhoud van het boek?
+    title: Een indruk van het boek?
     text: Krijg gratis het gedeelte thuisgestuurd over hoe jij ervoor kunt zorgen
       dat studenten zich zo veel mogelijk voorbereiden op je colleges.
     image: /images/samen-lezen.png
