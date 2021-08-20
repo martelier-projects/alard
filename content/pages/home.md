@@ -94,7 +94,7 @@ sections:
       dat studenten zich zo veel mogelijk voorbereiden op je colleges.
     image: /images/samen-lezen.png
     imageAlt: Nog toe te voegen
-    emailSignUpInputLabel: Vul hier uw email adres in
+    emailSignUpInputLabel: Vul hier je email adres in
     emailSignUpSignUpLabel: Aanvragen
 seo:
   pageTitle: sfds
