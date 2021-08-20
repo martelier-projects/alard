@@ -48,6 +48,18 @@ export default {
       required: true,
     },
     {
+      label: 'Button label',
+      name: 'buttonLabel',
+      widget: 'string',
+      required: false,
+    },
+    {
+      label: 'Button link',
+      name: 'buttonLink',
+      widget: 'string',
+      required: false,
+    },
+    {
       label: 'Component',
       name: 'component',
       widget: 'hidden',

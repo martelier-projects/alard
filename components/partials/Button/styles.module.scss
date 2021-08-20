@@ -17,3 +17,10 @@
 .button:hover {
   background-color: $primary-color-darker;
 }
+
+.button[data-size='small'] {
+  @include text-medium;
+  @include sans-serif-font;
+  font-weight: $normal;
+  line-height: 1;
+}

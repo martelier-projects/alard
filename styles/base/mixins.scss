@@ -191,15 +191,15 @@
 
   &::after {
     content: '';
-    opacity: 0.2;
+    opacity: 0.1;
     z-index: -1;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: $gray;
-    background-image: url('/images/background.jpg');
-    filter: grayscale(50%);
+    background-color: lighten($primary-color, 0%);
+    background-image: url('/images/eyes.svg');
+    background-size: 120%;
   }
 }

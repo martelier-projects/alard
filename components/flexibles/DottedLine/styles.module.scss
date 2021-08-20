@@ -2,7 +2,6 @@
 
 .dotted-line {
   @include row-bottom(huge);
-}
-.dotted-line__inner {
-  border-bottom: 1.8vw dotted #007f8e;
+  background-image: url('/images/dotted-line.svg');
+  background-repeat: repeat-x;
 }

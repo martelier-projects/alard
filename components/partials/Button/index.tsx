@@ -4,14 +4,16 @@ import type ButtonInterface from './interface'
 
 import styles from './styles.module.scss'
 
-const button = ({ children, link }: ButtonInterface) => (
+const button = ({ children, link, size = 'normal' }: ButtonInterface) => (
   <>
     {link ? (
       <Link href={link}>
-        <a className={styles['button']}>{children}</a>
+        <a data-size={size} className={styles['button']}>
+          {children}
+        </a>
       </Link>
     ) : (
-      <button className={styles['button']} type="button">
+      <button data-size={size} className={styles['button']} type="button">
         {children}
       </button>
     )}

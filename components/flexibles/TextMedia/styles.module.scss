@@ -23,16 +23,16 @@
 // Background
 .wrapper[data-order='image-text'] .text-media::after {
   content: '';
-  opacity: 0.1;
+  opacity: 0.15;
   z-index: -1;
   position: absolute;
   top: -0.6rem;
   left: 3%;
   width: 69%;
   height: calc(100% + 2.3rem);
-  background-color: $gray;
-  background-image: url('/images/background.jpg');
-  filter: grayscale(100%);
+  background-color: #abc986;
+  background-image: url('/images/eyes.svg');
+  background-size: 250%;
 
   @include bp-min(small) {
     left: 15%;
@@ -40,10 +40,10 @@
 
   @include bp-min(medium) {
     top: 50%;
-    left: 25%;
+    left: 21%;
     width: 50%;
-    height: 89%;
-    transform: translateY(-50%);
+    height: 65%;
+    transform: translateY(-60%);
   }
 }
 
@@ -108,6 +108,7 @@
     width: calc(50vw - #{gap(huge) / 2});
     height: 100%;
     object-fit: cover;
+    object-position: bottom;
   }
 }
 
@@ -126,4 +127,8 @@
 
 .children {
   padding: 1px;
+}
+
+.button {
+  margin-top: rem(70);
 }

@@ -73,10 +73,8 @@ sections:
   - type: dotted-line
     color: "#f18634"
     component: dotted-line
-  - type: text-media
-    order: image-text
-    component: text-media
-    title: Wie is de auteur?
+  - buttonLabel: Meer over Alard
+    buttonLink: https://www.dedocentenacademie.nl
     text: >-
       Ik ben Alard Joosten en heb meer dan vijftien jaar onderwijservaring op
       universiteiten en diverse hogescholen. Vanuit deze ervaring heb ik in 2016
@@ -84,9 +82,13 @@ sections:
 
 
       Met een team van zes medewerkers trainen en begeleiden wij docenten en docententeams op het gebied van effectief onderwijs. Met ons werk willen wij bijdragen aan een wereld waarin we elkaar verder helpen door optimaal van en met elkaar te leren. En dat vanuit ons motto: leren doe je door plezier, verbinding en actie!
-    image: /images/whatsapp-image-2021-07-10-at-14.07.26.jpeg
     imageAlt: "-"
+    order: image-text
+    title: Wie is de auteur?
     imageToTheEdge: true
+    type: text-media
+    image: /images/whatsapp-image-2021-07-10-at-14.07.26.jpeg
+    component: text-media
   - type: mailChimpSignUp
     component: mail-chimp-sign-up
     title: Een indruk van het boek?

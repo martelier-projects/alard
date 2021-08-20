@@ -6,4 +6,6 @@ export default interface TextMedia {
   imageToTheEdge?: boolean
   title?: string
   children?: React.ReactNode
+  buttonLabel?: string
+  buttonLink?: string
 }
