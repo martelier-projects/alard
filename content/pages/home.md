@@ -6,7 +6,7 @@ sections:
   - buttonLabel: Boek bestellen
     topics:
       - title: Motiveren tot leren
-        text: Wat jij kunt doen om ervoor te zorgen dat studenten zin in leren krijgen
+        text: Wat jij kunt doen om te zorgen dat studenten zin in leren krijgen
       - title: Effectief onderwijs
         text: Concrete handvatten over hoe jij effectief onderwijs realiseert
       - title: Tips & Checklijsten
