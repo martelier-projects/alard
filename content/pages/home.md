@@ -26,13 +26,14 @@ sections:
     order: text-image
     component: text-media
     title: Waar gaat dit boek over?
-    text: Iedere dag ervaar je dat de motivatie van studenten wisselt. Maar ondanks
+    text: >-
+      Iedere dag ervaar je dat de motivatie van studenten wisselt. Maar ondanks
       deze variatie, kun jij de ideale omstandigheden creëren waardoor studenten
       in beweging komen. Dit doe je door aandacht te schenken aan de drie
-      basisbehoeften, oftewel het motivatie-ABC. Wanneer je aandacht schenkt aan
-      het ABC van studenten, stimuleer je hen tot leren. In dit boek lees je hoe
-      je dit in jouw les- en begeleidingssituaties, fysiek en offline, kunt
-      aanpakken. De adviezen zijn meestal verpakt in handige to-dolijstjes.
+      basisbehoeften, oftewel het motivatie-ABC. 
+
+
+      Wanneer je aandacht schenkt aan het ABC van studenten, stimuleer je hen tot leren. In dit boek lees je hoe je dit in jouw les- en begeleidingssituaties, fysiek en offline, kunt aanpakken. De adviezen zijn meestal verpakt in handige to-dolijstjes.
     image: /images/abc.png
     imageAlt: Boek
   - type: text-media
