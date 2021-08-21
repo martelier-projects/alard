@@ -97,7 +97,7 @@ sections:
     image: /images/samen-lezen.png
     imageAlt: Nog toe te voegen
     emailSignUpInputLabel: Vul hier je email adres in
-    emailSignUpSignUpLabel: Aanvragen
+    emailSignUpSignUpLabel: versturen
 seo:
   pageTitle: Studenten verleiden tot leren
   pageDescription: sdfsf
