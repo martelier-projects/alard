@@ -92,8 +92,8 @@ sections:
   - type: mailChimpSignUp
     component: mail-chimp-sign-up
     title: Een indruk van het boek?
-    text: Krijg gratis het gedeelte thuisgestuurd over hoe jij ervoor kunt zorgen
-      dat studenten zich zo veel mogelijk voorbereiden op je colleges.
+    text: Krijg gratis het eerste hoofdstuk thuisgestuurd waarin je alles leest over
+      aan welke knoppen jij als docent kunt draaien om studenten te motiveren.
     image: /images/samen-lezen.png
     imageAlt: Nog toe te voegen
     emailSignUpInputLabel: Vul hier je email adres in
