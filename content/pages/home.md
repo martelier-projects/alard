@@ -77,7 +77,7 @@ sections:
     color: "#f18634"
     component: dotted-line
   - buttonLabel: Meer over Alard
-    buttonLink: http://www.dedocentenacademie.nl
+    buttonLink: www.dedocentenacademie.nl
     text: >-
       Ik ben Alard Joosten en heb meer dan vijftien jaar onderwijservaring op
       universiteiten en diverse hogescholen. Vanuit deze ervaring heb ik in 2016
