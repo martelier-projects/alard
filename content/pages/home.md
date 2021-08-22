@@ -12,11 +12,14 @@ sections:
       - title: Tips & Checklisten
         text: "Tips wat jij kunt doen in lastige onderwijssituaties "
     buttonLink: https://studentenverleidentotleren.vrijeboeken.com/cart?noproductlink=1&reference=9789090346625
-    text: Als docent heb je dagelijks te maken met uitdagende situaties. Studenten
+    text: >-
+      Als docent heb je dagelijks te maken met uitdagende situaties. Studenten
       die onvoorbereid naar je werkcollege komen. Studenten die hun camera
       uitzetten bij een online les. Studenten die meer op hun telefoon zitten
-      dan dat ze actief meedoen. Soms lijken studenten weinig gemotiveerd. Maar
-      is dit werkelijk zo?
+      dan dat ze actief meedoen. 
+
+
+      Soms lijken studenten weinig gemotiveerd. Maar is dit werkelijk zo?
     imageAlt: "Het boek: Het praktijkboek voor docenten in het hoger onderwijs"
     title: Het praktijkboek voor docenten in het hoger onderwijs
     type: pageHeader
