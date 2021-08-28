@@ -1,4 +1,4 @@
-import ReactGA from 'react-ga'
+import ReactGA from 'react-ga4'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 
@@ -13,15 +13,15 @@ export default function App({ Component, pageProps }: AppProps) {
     if (!process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID) return
 
     // Initialize GA.
-    const debug = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_DEBUG === 'true'
+    const testMode = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_DEBUG === 'true'
     ReactGA.initialize(process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID, {
-      debug,
+      testMode,
     })
     ReactGA.set({ anonymizeIp: true })
 
     // Send Pageview for initial view.
     const url = window.location.pathname + window.location.search
-    ReactGA.pageview(url)
+    ReactGA.send({ hitType: 'pageview', page: url })
   }, [])
 
   /**
@@ -31,7 +31,7 @@ export default function App({ Component, pageProps }: AppProps) {
     if (!process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID) return () => {}
 
     const handleRouteChange = (url: string) => {
-      ReactGA.pageview(url)
+      ReactGA.send({ hitType: 'pageview', page: url })
     }
 
     // Subscribe to router changes.
