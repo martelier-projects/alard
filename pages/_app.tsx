@@ -1,3 +1,4 @@
+// Use react-ga package as soon as GA4 is supported.
 import ReactGA from 'react-ga4'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
