@@ -13,10 +13,8 @@ export default function App({ Component, pageProps }: AppProps) {
     if (!process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID) return
 
     // Initialize GA.
-    const testMode = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_DEBUG === 'true'
-    ReactGA.initialize(process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID, {
-      testMode,
-    })
+    // const debug = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_DEBUG === 'true'
+    ReactGA.initialize(process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID)
     ReactGA.set({ anonymizeIp: true })
 
     // Send Pageview for initial view.
