@@ -10,7 +10,7 @@ sections:
       - title: Effectief onderwijs
         text: Concrete handvatten over hoe jij effectief onderwijs realiseert
       - title: Tips & Checklisten
-        text: "Tips wat jij kunt doen in lastige onderwijssituaties "
+        text: 'Tips wat jij kunt doen in lastige onderwijssituaties '
     buttonLink: https://studentenverleidentotleren.vrijeboeken.com/cart?noproductlink=1&reference=9789090346625
     text: >-
       Als docent heb je dagelijks te maken met uitdagende situaties. Studenten
@@ -20,7 +20,7 @@ sections:
 
 
       Soms lijken studenten weinig gemotiveerd. Maar is dit werkelijk zo?
-    imageAlt: "Het boek: Het praktijkboek voor docenten in het hoger onderwijs"
+    imageAlt: 'Het boek: Het praktijkboek voor docenten in het hoger onderwijs'
     title: Het praktijkboek voor docenten in het hoger onderwijs
     type: pageHeader
     image: /images/voorkant.jpg
@@ -50,7 +50,7 @@ sections:
     order:
       - image-text
     component: text-media
-    title: "Hoe is het boek opgebouwd? "
+    title: 'Hoe is het boek opgebouwd? '
     text: >-
       * In het eerste hoofdstuk beschrijf ik wat studenten motiveert tot leren
       en introduceer ik het motivatie-ABC;
@@ -66,14 +66,15 @@ sections:
     order: text-image
     component: text-media
     title: Voor wie is dit boek?
-    text: Voor iedere beginnende of meer ervaren docent binnen het hoger onderwijs.
+    text:
+      Voor iedere beginnende of meer ervaren docent binnen het hoger onderwijs.
       Dit praktijkboek helpt je als je verder wilt komen in je vak. Afhankelijk
       van jouw voorkeur kun je onderdelen uit het boek of de waaier gebruiken.
     image: /images/samen-lezen.png
-    imageAlt: "-"
+    imageAlt: '-'
     imageToTheEdge: false
   - type: dotted-line
-    color: "#f18634"
+    color: '#f18634'
     component: dotted-line
   - buttonLabel: Meer over Alard
     buttonLink: http://www.dedocentenacademie.nl
@@ -84,7 +85,7 @@ sections:
 
 
       Met een team van zes medewerkers trainen en begeleiden wij docenten en docententeams op het gebied van effectief onderwijs. Met ons werk willen wij bijdragen aan een wereld waarin we elkaar verder helpen door optimaal van en met elkaar te leren. En dat vanuit ons motto: leren doe je door plezier, verbinding en actie!
-    imageAlt: "-"
+    imageAlt: '-'
     order: image-text
     title: Wie is de auteur?
     imageToTheEdge: true
@@ -94,7 +95,8 @@ sections:
   - type: mailChimpSignUp
     component: mail-chimp-sign-up
     title: Een indruk van het boek?
-    text: Krijg gratis het eerste hoofdstuk thuisgestuurd waarin je alles leest over
+    text:
+      Krijg gratis het eerste hoofdstuk thuisgestuurd waarin je alles leest over
       aan welke knoppen jij als docent kunt draaien om studenten te motiveren.
     image: /images/samen-lezen.png
     imageAlt: Nog toe te voegen
