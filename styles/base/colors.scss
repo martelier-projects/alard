@@ -4,8 +4,16 @@ $black-light: #383838;
 $white: white;
 $gray: #dddddd;
 
-$primary-color: #f18634;
-$primary-color-darker: darken(#f18634, 10%);
-$secondary-color: #298eac;
-
 $yellow: #fff48e;
+$orange: #f18634;
+$red: #e95053;
+$brown: #552011;
+$light-blue: #8bd0e4;
+$light-green: #abc986;
+$dark-green: #007f8e;
+$dark-blue: #273582;
+$purple: #9866a3;
+
+$primary-color: $orange;
+$primary-color-darker: darken($orange, 10%);
+$secondary-color: #298eac;

@@ -1,0 +1,37 @@
+@import '../../../styles/base.scss';
+
+.testimonials {
+  @include block(large);
+  @include row;
+}
+
+.testimonials__title {
+  @include row-bottom(small);
+  text-align: center;
+}
+
+.testimonials__list {
+  display: grid;
+  grid-gap: 5rem;
+  justify-content: center;
+
+  @include bp-min(medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include bp-min(large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.testimonials__item {
+  display: flex;
+  max-width: 23rem;
+}
+
+.testimonials__item:nth-of-type(3) {
+  display: none;
+
+  @include bp-min(large) {
+    display: flex;
+  }
+}

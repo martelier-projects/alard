@@ -1,0 +1,55 @@
+@import '../../../styles/base.scss';
+
+.testimonial {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 5rem gap(huge) gap(huge);
+
+  background-color: $white;
+  border: 1px solid $gray;
+  border-radius: 5px;
+  box-shadow: -#{gap(large)} -#{gap(large)} 0 $orange,
+    -#{gap(large)} gap(large) 0 $orange;
+}
+
+.testimonial[data-count='2'] {
+  box-shadow: -#{gap(large)} -#{gap(large)} 0 $light-blue,
+    -#{gap(large)} gap(large) 0 $light-blue;
+}
+.testimonial[data-count='3'] {
+  box-shadow: -#{gap(large)} -#{gap(large)} 0 $light-green,
+    -#{gap(large)} gap(large) 0 $light-green;
+}
+
+.testimonial__icon {
+  position: absolute;
+  top: gap(medium);
+  left: gap(medium);
+  max-width: gap(large);
+  color: $black;
+  transform: scale(0.5);
+}
+
+.testimonial__text-container {
+  margin: 0;
+}
+.testimonial__text {
+  margin: 0;
+}
+.testimonial__author {
+  @include sans-serif-font;
+  position: relative;
+  margin: gap(huge) 0 0;
+  font-weight: 400;
+}
+.testimonial__author::before {
+  content: '';
+  position: absolute;
+  top: -#{gap(medium)};
+  left: 0;
+  width: gap(huge);
+  height: 1px;
+  background-color: $gray;
+}

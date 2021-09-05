@@ -6,6 +6,7 @@ import PageHeader from '../../flexibles/PageHeader'
 import Text from '../../flexibles/Text'
 import TextMedia from '../../flexibles/TextMedia'
 import DottedLine from '../../flexibles/DottedLine'
+import Testimonials from '../../flexibles/Testimonials'
 
 export default function FlexibleContent({
   sections,
@@ -32,6 +33,9 @@ export default function FlexibleContent({
         }
         if (section.component === 'dotted-line') {
           return <DottedLine key={`flexible-content-${index}`} {...section} />
+        }
+        if (section.component === 'testimonials') {
+          return <Testimonials key={`flexible-content-${index}`} {...section} />
         }
 
         return null

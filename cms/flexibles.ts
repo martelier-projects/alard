@@ -4,6 +4,7 @@ import pageHeader from '../components/flexibles/PageHeader/cms'
 import text from '../components/flexibles/Text/cms'
 import textMedia from '../components/flexibles/TextMedia/cms'
 import dottedLine from '../components/flexibles/DottedLine/cms'
+import testimonials from '../components/flexibles/Testimonials/cms'
 
 export default [
   largeText,
@@ -11,5 +12,6 @@ export default [
   pageHeader,
   text,
   textMedia,
+  testimonials,
   dottedLine,
 ]
