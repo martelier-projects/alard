@@ -1257,6 +1257,11 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
+"@martijnnieuwenhuizen/generate-component@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@martijnnieuwenhuizen/generate-component/-/generate-component-0.4.0.tgz#948850f52e2eef83a2bfd482443cbc7e466064c8"
+  integrity sha512-eBs+gY5erMwku9i7L9AtOKErtw36hlY6hAjgugr6IjqqUoKbNNzX4qfOS4Nojz0Lx21E2LcIs+MUQmIzXzYTlA==
+
 "@next/env@10.0.5":
   version "10.0.5"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-10.0.5.tgz#446e59ee7a8d05061be784b24732c369653038ab"
