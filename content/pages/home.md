@@ -10,7 +10,7 @@ sections:
       - title: Effectief onderwijs
         text: Concrete handvatten over hoe jij effectief onderwijs realiseert
       - title: Tips & Checklisten
-        text: 'Tips wat jij kunt doen in lastige onderwijssituaties '
+        text: "Tips wat jij kunt doen in lastige onderwijssituaties "
     buttonLink: https://studentenverleidentotleren.vrijeboeken.com/cart?noproductlink=1&reference=9789090346625
     text: >-
       Als docent heb je dagelijks te maken met uitdagende situaties. Studenten
@@ -20,7 +20,7 @@ sections:
 
 
       Soms lijken studenten weinig gemotiveerd. Maar is dit werkelijk zo?
-    imageAlt: 'Het boek: Het praktijkboek voor docenten in het hoger onderwijs'
+    imageAlt: "Het boek: Het praktijkboek voor docenten in het hoger onderwijs"
     title: Het praktijkboek voor docenten in het hoger onderwijs
     type: pageHeader
     image: /images/voorkant.jpg
@@ -50,7 +50,7 @@ sections:
     order:
       - image-text
     component: text-media
-    title: 'Hoe is het boek opgebouwd? '
+    title: "Hoe is het boek opgebouwd? "
     text: >-
       * In het eerste hoofdstuk beschrijf ik wat studenten motiveert tot leren
       en introduceer ik het motivatie-ABC;
@@ -66,16 +66,37 @@ sections:
     order: text-image
     component: text-media
     title: Voor wie is dit boek?
-    text:
-      Voor iedere beginnende of meer ervaren docent binnen het hoger onderwijs.
+    text: Voor iedere beginnende of meer ervaren docent binnen het hoger onderwijs.
       Dit praktijkboek helpt je als je verder wilt komen in je vak. Afhankelijk
       van jouw voorkeur kun je onderdelen uit het boek of de waaier gebruiken.
     image: /images/samen-lezen.png
-    imageAlt: '-'
+    imageAlt: "-"
     imageToTheEdge: false
   - type: dotted-line
-    color: '#f18634'
+    color: "#f18634"
     component: dotted-line
+  - type: testimonials
+    component: testimonials
+    testimonials:
+      - text: >-
+          Dit boek besteld en ik kon het niet meer wegleggen. Als docent in het
+          hoger onderwijs is het een onuitputtelijke bron van goede tips en
+          checklists om je studenten nog meer aan te zetten tot leren en je
+          lessen voor te bereiden.
+
+          Het boek is enorm praktisch. Je hoeft niet eerst ellenlange hoofdstukken theorie door te ploegen en zelf de vertaalslag naar je lessen te maken. Joosten heeft dit allemaal al voor je gedaan en ik moet zeggen dat het ook echt werkt! Ik stuur nu veel meer op autonomie, binding en competentie. Uit de feedback van mijn studenten blijkt dat mijn lessen er beter op zijn geworden. Een kleine investering met een groot rendement! Een aanrader voor elk type docent.
+        author: Maarten ter Huurne, docent en onderzoeker Hogeschool Utrecht
+      - text: Dit boek geeft heel overzichtelijk de facetten van goed docentschap weer.
+          Het boek is bondig en concreet beschreven met heldere voorbeelden. De
+          inhoud van het boek kan je gebruiken ter voorbereiding van je les maar
+          ook om te reflecteren op je eigen lesgeven. Ontzettend fijn voor
+          docenten die zelf ook willen blijven leren. Het boek geeft veel
+          handige ezelbruggetjes om zaken niet te vergeten. Zo start Joosten
+          zijn boek door zijn visie te omschrijven als een ABC. ABC staat voor
+          Autonomie, Verbinding en Competentie. De handige waaier met
+          checklisten ligt standaard op mijn bureau en gebruik ik om te checken
+          of ik niets vergeten ben en ter inspiratie.
+        author: Ellen Steijvers, docent Bestuursacademie Nederland
   - buttonLabel: Meer over Alard
     buttonLink: http://www.dedocentenacademie.nl
     text: >-
@@ -85,7 +106,7 @@ sections:
 
 
       Met een team van zes medewerkers trainen en begeleiden wij docenten en docententeams op het gebied van effectief onderwijs. Met ons werk willen wij bijdragen aan een wereld waarin we elkaar verder helpen door optimaal van en met elkaar te leren. En dat vanuit ons motto: leren doe je door plezier, verbinding en actie!
-    imageAlt: '-'
+    imageAlt: "-"
     order: image-text
     title: Wie is de auteur?
     imageToTheEdge: true
@@ -95,8 +116,7 @@ sections:
   - type: mailChimpSignUp
     component: mail-chimp-sign-up
     title: Een indruk van het boek?
-    text:
-      Krijg gratis het eerste hoofdstuk thuisgestuurd waarin je alles leest over
+    text: Krijg gratis het eerste hoofdstuk thuisgestuurd waarin je alles leest over
       aan welke knoppen jij als docent kunt draaien om studenten te motiveren.
     image: /images/samen-lezen.png
     imageAlt: Nog toe te voegen
