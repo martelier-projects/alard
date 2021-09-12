@@ -97,6 +97,7 @@ sections:
           checklisten ligt standaard op mijn bureau en gebruik ik om te checken
           of ik niets vergeten ben en ter inspiratie.
         author: Ellen Steijvers, docent Bestuursacademie Nederland
+    title: Wat vinden anderen van het boek?
   - buttonLabel: Meer over Alard
     buttonLink: http://www.dedocentenacademie.nl
     text: >-
