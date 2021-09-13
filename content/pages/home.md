@@ -97,6 +97,23 @@ sections:
           checklisten ligt standaard op mijn bureau en gebruik ik om te checken
           of ik niets vergeten ben en ter inspiratie.
         author: Ellen Steijvers, docent Bestuursacademie Nederland
+      - text: In dit boek zoomt Alard in op een specifiek onderwerp binnen het
+          docentenvak, namelijk het motiveren van studenten. Het is een erg
+          praktisch boek dat geordend is naar onderwijscontexten zoals
+          werkcolleges of één-op-éénbegeleiding. Het boek staat vol met nuttige
+          checklists die je kunnen helpen bij uiteenlopende situaties, van het
+          leren van namen en het ontwerpen van een startoefening tot het geven
+          van feedback. Deze checklists zijn bovendien verzameld in een handzame
+          waaier, die ik nu standaard in mijn tas heb zitten. Als enige
+          minpuntje zou ik willen benoemen dat sommige checklists wel erg lang
+          zijn, zoals de checklist over feedback geven. Dit voelt niet altijd
+          haalbaar, wat bij mij soms wat ontmoedigend werkt. Echter, de auteur
+          benadrukt ook dat je kan beginnen bij één onderwerp of
+          begeleidingsvorm, zodat je langzaam de tips kan gaan leren toepassen.
+          Het boek nodigt uit om direct aan de slag te gaan met de tips, en is
+          zowel voor de beginnende als de gevorderde docent uiterst geschikt.
+          Aanrader!
+        author: Jonas Moons, docent Hogeschool Utrecht
     title: Wat vinden anderen van het boek?
   - buttonLabel: Meer over Alard
     buttonLink: http://www.dedocentenacademie.nl
